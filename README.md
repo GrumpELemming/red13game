@@ -12,7 +12,7 @@ Rapture's reference-based sprite and generation prompt are documented in
 [ARTWORK.md](ARTWORK.md). The website serves the game from its `red13/` folder;
 game changes must also be copied there.
 
-Jammer Packs replace normal scheduled drone loot with an independent 5% chance
+Jammer Packs replace normal scheduled drone loot with an independent 10% chance
 per eligible drop. A full seven-item loot pool does not roll; occupied points
 are excluded before selecting a location. Each roll creates exactly one item.
 Enemy GCoin rewards and cosmetic crate rewards are not eligible.
@@ -32,3 +32,16 @@ seeds, failure counters or guaranteed drops. Reloads and hosting restarts do not
 change the configured chance. Each browser player has its own loot and timer;
 Red13 has no shared multiplayer game server. A future shared-world mode would
 need to perform the roll once on its authoritative server, not once per client.
+
+Red13 mode also has a configurable `blueChipSpawnChance` of 0.05 per eligible
+loot drop. A single cryptographic draw selects disjoint ranges: 10% Jammer,
+5% Blue Chip Detector, 85% normal loot. Rapture mode has 10% Jammer and 90%
+normal loot. Special chances must total at most 1. Rolls remain independent
+across drops, with one item per point and no pity counter.
+
+The blue BCD pickup stores one respawn charge in the current Red13 run;
+additional pickups do not stack charges. On death, the prompt says
+"press r to send the bluechip to emily". R consumes the charge and respawns
+Red13 with 100 HP, preserving the phase, BP and GCoin. Immediate threats are
+cleared and blue-zone damage resumes after the normal damage interval.
+Starting a new run clears the charge; R during a live run still restarts.
