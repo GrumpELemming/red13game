@@ -14,6 +14,11 @@ game changes must also be copied there.
 
 Jammer Packs replace normal scheduled drone loot with an independent 10% chance
 per eligible drop. A full seven-item loot pool does not roll; occupied points
+are excluded. Only one Jammer Pack may spawn in a run, whether collected or
+left on the ground. After it spawns, later drops cannot produce another;
+BCD Continue preserves this limit. A new run resets eligibility. The 10%
+chance applies until the first successful Jammer spawn, with no guaranteed drop.
+Occupied points
 are excluded before selecting a location. Each roll creates exactly one item.
 Enemy GCoin rewards and cosmetic crate rewards are not eligible.
 
