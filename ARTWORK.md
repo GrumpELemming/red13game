@@ -1,5 +1,14 @@
 # Character sprites
 
+## Sweaty Try Hard sprite
+
+Asset: `assets/sweaty-try-hard.png`, also copied to `pubg-ban-checker-web/red13/assets/sweaty-try-hard.png`.
+Generated with the built-in image generation tool using the user's enemy reference and a transparent background.
+
+Final prompt:
+
+> Create one full-body transparent PNG game sprite of the adult fictional Sweaty Try Hard character in the attached reference. Preserve the raised dark hood, galaxy-pattern navy hoodie, skull face covering with blue-purple jaw details, heart-shaped pink sunglasses, dark gloves with bright pink and cyan fingers, shimmering multicoloured galaxy trousers and dark trainers. Single centered full-body figure standing front-facing with arms relaxed slightly away from body, matching a clean stylized anime game illustration used for the Red13 and Rapture arcade sprites. Keep strong readable silhouette and recognizable outfit at a tiny 56x72 pixel display. No background, scenery, floor, shadow, captions, extra characters or objects. Transparent margins around entire body. Use the attached image as identity and clothing reference.
+
 ## Red13 sprite
 
 Asset: `assets/red13.png`, also copied to `pubg-ban-checker-web/red13/assets/red13.png`.
