@@ -1,5 +1,15 @@
 # Character sprites
 
+## Rapture with an active Jammer Pack
+
+`assets/rapture-jammer-top-down.png` is the unchanged transparent reference
+from `C:/Users/Jen/Pictures/jammer pack rapture.png`, copied to both game folders.
+The game crops its alpha bounds (1554, 79, 744, 1471) without browser pixel
+readback, preserving support for local HTML files. While Rapture's Jammer
+protection is active, this replaces her normal movement sprite and rotates in
+eight directions. The shared scale and pivot keep her body stable when switching.
+Expiry and restarting restore the normal sprite. Red13 keeps his own artwork.
+
 ## Rapture directional movement
 
 `assets/rapture-top-down.png` is the original transparent 3840×2160 reference
