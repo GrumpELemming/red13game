@@ -1,5 +1,15 @@
 # Character sprites
 
+## Rapture directional movement
+
+`assets/rapture-top-down.png` is the original transparent 3840×2160 reference
+from `C:/Users/Jen/Pictures/rapture facing up (w to go up).png`, also copied to
+`pubg-ban-checker-web/red13/assets/rapture-top-down.png`.
+The game trims transparent margins in an offscreen canvas when it loads and
+rotates the original artwork for eight movement directions. Up is the source
+orientation; idle preserves the last facing. The character selection portrait
+continues to use `assets/rapture.png`.
+
 ## Sweaty Try Hard sprite
 
 Asset: `assets/sweaty-try-hard.png`, also copied to `pubg-ban-checker-web/red13/assets/sweaty-try-hard.png`.
