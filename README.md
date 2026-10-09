@@ -42,6 +42,8 @@ across drops, with one item per point and no pity counter.
 The blue BCD pickup stores one respawn charge in the current Red13 run;
 additional pickups do not stack charges. On death, the prompt says
 "press r to send the bluechip to emily". R consumes the charge and respawns
-Red13 with 100 HP, preserving the phase, BP and GCoin. Immediate threats are
+Red13 with 100 HP at his death location, preserving the phase, BP and GCoin.
+The death-screen button reads Continue and performs the same action as R.
+Immediate threats are
 cleared and blue-zone damage resumes after the normal damage interval.
 Starting a new run clears the charge; R during a live run still restarts.
